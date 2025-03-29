@@ -1,5 +1,5 @@
 import cv2
-path = "/home/tejas/Programs/Python/Learn/Opencv-python/Zoro.jpeg"
+path = "/home/tejas/Programs/Python/Learn/Opencv-python/Cars.png"
   
 # reading the image in grayscale mode 
 gray = cv2.imread(path, 0) 
@@ -24,4 +24,6 @@ for cnt in cnts:
 # printing output 
 print("\nDots number: {}".format(len(xcnts)))
 
-cv2.imshow("dots", path)
+cv2.imshow("dots", )
+cv2.waitKey
+cv2.destroyAllWindows()

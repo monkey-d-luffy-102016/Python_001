@@ -1,4 +1,7 @@
-OpenCV & MediaPipe Cheat Sheet
+
+
+
+openCV & MediaPipe Cheat Sheet
 
           1. Basic OpenCV Operations
 - `cv2.imread(filename, flag)` – Load an image (`flag`: 0=grayscale, 1=color, -1=unchanged)
